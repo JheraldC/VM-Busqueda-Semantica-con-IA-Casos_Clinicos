@@ -28,7 +28,7 @@ Está diseñada para desplegarse en una **VM de Google Cloud**, optimizada para 
     "texto": "Paciente de 57 años con dolor abdominal y fiebre, antecedentes de..."
   }
 ### `POST /medgemma-img`
-- **Descripción**: Devuelve un informe automático generado por IA a partir de una o varias imágenes médicas enviadas..
+- **Descripción**: Devuelve un informe automático generado por IA a partir de una o varias imágenes médicas enviadas.
 - **Entrada**:  
   - files: archivos de imagen (formato multipart/form-data).
   - prompt: (opcional) instrucciones clínicas específicas en español.
